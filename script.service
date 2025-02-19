@@ -3,7 +3,7 @@ Description=Monitoring Service for test process
 After=network.target
 
 [Service]
-ExecStart=/path/to/monitoring.sh
+ExecStart=/path/to/script.sh
 Restart=always
 User=root
 Group=root
