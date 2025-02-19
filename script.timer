@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the monitoring script every minute
+
+[Timer]
+OnUnitActiveSec=1min
+Unit=script.service
+
+[Install]
+WantedBy=timers.target
